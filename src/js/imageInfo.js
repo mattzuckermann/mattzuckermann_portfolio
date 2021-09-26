@@ -14,7 +14,6 @@ export default [
     desc:
       "JAMstack app for developers in mastering the use of the “this” keyword in various JavaScript contexts",
     image: useThisImage,
-    extraHeight: 1,
   },
   {
     appName: "Music Artist Site",
@@ -24,7 +23,6 @@ export default [
     desc:
       "JAMstack site with reverse engineered Spotify audio player and webhook to auto-compile site from CMS",
     image: jzMusicImage,
-    extraHeight: 1,
   },
   {
     appName: "NYT Searcher",
@@ -34,7 +32,6 @@ export default [
     desc:
       "Website that parses The New York Times articles API and allows users to share their favorites with others",
     image: bestSellerSearcherImage,
-    extraHeight: 0,
   },
   {
     appName: "Snippets.",
@@ -45,7 +42,6 @@ export default [
     desc:
       "Snippets is a personalized user database to store code, displaying it in a colored and formatted manner.",
     image: codesnippetsImage,
-    extraHeight: 0,
   },
   {
     appName: "Liri Bot",
@@ -55,7 +51,6 @@ export default [
     desc:
       "Node app that inputs varying methods and arguments from Node CLI to look up various web API end points.",
     image: liriBotImage,
-    extraHeight: 2,
   },
   {
     appName: "Store Stock",
@@ -65,6 +60,5 @@ export default [
     desc:
       "Node app that prompts users with items for sale and tracks made purchases using a MySQL database.",
     image: storeStockImage,
-    extraHeight: 2,
   },
 ]

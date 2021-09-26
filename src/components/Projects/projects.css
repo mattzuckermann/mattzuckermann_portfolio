@@ -164,13 +164,6 @@ a > span:hover {
   color: white;
 }
 
-.demoNYT,
-.demoSnippets {
-  font-family: "Abel", sans-serif;
-  padding: 0px 10px;
-  text-align: center;
-}
-
 img.repoImages {
   border-radius: 8px;
 }
@@ -179,25 +172,7 @@ img.repoImages {
 /* MEDIA QUERIES */
 /* ============= */
 
-@media screen and (max-width: 1650px) {
-  .demoNYT,
-  .demoSnippets {
-    padding: 0px 25px 0px 25px;
-  }
-}
-
-@media screen and (max-width: 1350px) {
-  .demoNYT,
-  .demoSnippets {
-    padding: 0px 20px;
-  }
-}
-
 @media screen and (max-width: 1305px) {
-  .demoNYT,
-  .demoSnippets {
-    padding: 0px 5px;
-  }
   .repoImageWrapper {
     margin: 0px 20%;
   }
@@ -246,10 +221,6 @@ img.repoImages {
 }
 
 @media screen and (max-width: 960px) {
-  .demoNYT,
-  .demoSnippets {
-    padding: 0px 5px;
-  }
   .repoImageWrapper {
     margin: 0px 7%;
   }
@@ -286,10 +257,6 @@ img.repoImages {
 }
 
 @media screen and (max-width: 503px) {
-  .demoNYT,
-  .demoSnippets {
-    padding: 0px 5px;
-  }
   ul.hs {
     grid-template-columns:
       20px repeat(var(--projects-array-length), calc(88% - var(--gutter) * 2))
