@@ -1,4 +1,5 @@
 const jzMusicImage = require("../images/projects/joshzuckermann.webp")
+const triviaGameImage = require("../images/projects/triviagame.webp")
 const useThisImage = require("../images/projects/usethis.webp")
 const bestSellerSearcherImage = require("../images/projects/nytsearcher.webp")
 const codesnippetsImage = require("../images/projects/codesnippets.webp")
@@ -23,6 +24,15 @@ export default [
     desc:
       "JAMstack site with reverse engineered Spotify audio player and webhook to auto-compile site from CMS",
     image: jzMusicImage,
+  },
+  {
+    appName: "Animated Trivia Game",
+    deployLink: "https://musing-villani-44da24.netlify.app/",
+    repoLink: "https://github.com/mattzuckermann/animated_trivia_game",
+    shortBio: "Gatsby, TypeScript, React, Sass, Framer Motion",
+    desc:
+      "JAMstack app for developers in mastering the use of the “this” keyword in various JavaScript contexts",
+    image: triviaGameImage,
   },
   {
     appName: "NYT Searcher",
