@@ -11,7 +11,7 @@ export default [
     appName: "useThis",
     deployLink: "https://usethis.dev/",
     repoLink: "https://github.com/mattzuckermann/usethis",
-    shortBio: "NextJS, TypeScript, React, Apollo, GraphQL, MongoDB, Mongoose",
+    shortBio: "NextJS, React, TypeScript, Apollo, GraphQL, MongoDB, Mongoose",
     desc:
       "JAMstack app for developers in mastering the use of the “this” keyword in various JavaScript contexts",
     image: useThisImage,
@@ -20,7 +20,7 @@ export default [
     appName: "Music Artist Site",
     deployLink: "https://joshzuckermann.com/",
     repoLink: "https://github.com/mattzuckermann/MusicArtistSite",
-    shortBio: "React, Material-UI, Gatsby, GraphQL, Typescript, Contentful",
+    shortBio: "Gatsby, React, Typescript, GraphQL, Contentful, Material-UI",
     desc:
       "JAMstack site with reverse engineered Spotify audio player and webhook to auto-compile site from CMS",
     image: jzMusicImage,
@@ -29,7 +29,7 @@ export default [
     appName: "Animated Trivia Game",
     deployLink: "https://musing-villani-44da24.netlify.app/",
     repoLink: "https://github.com/mattzuckermann/animated_trivia_game",
-    shortBio: "Gatsby, TypeScript, React, Sass, Framer Motion",
+    shortBio: "Gatsby, React, TypeScript, Sass, Framer Motion",
     desc:
       "JAMstack app for developers in mastering the use of the “this” keyword in various JavaScript contexts",
     image: triviaGameImage,
