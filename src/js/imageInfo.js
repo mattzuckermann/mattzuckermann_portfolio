@@ -1,5 +1,6 @@
 const jzMusicImage = require("../images/projects/joshzuckermann.webp")
 const triviaGameImage = require("../images/projects/triviagame.webp")
+const pacBayImage = require("../images/projects/pacbay.webp")
 const useThisImage = require("../images/projects/usethis.webp")
 const bestSellerSearcherImage = require("../images/projects/nytsearcher.webp")
 const codesnippetsImage = require("../images/projects/codesnippets.webp")
@@ -8,17 +9,16 @@ const storeStockImage = require("../images/projects/storestock.webp")
 
 export default [
   {
-    appName: "useThis",
-    deployLink: "https://usethis.dev/",
-    repoLink: "https://github.com/mattzuckermann/usethis",
-    shortBio: "NextJS, React, TypeScript, Apollo, GraphQL, MongoDB, Mongoose",
+    appName: "PacBay",
+    deployLink: "https://pacbay.org/",
+    shortBio: "Gatsby, React, GraphQL, Contentful, Mux, Netlify, Sass, Sketch",
     desc:
-      "JAMstack app for developers in mastering the use of the “this” keyword in various JavaScript contexts",
-    image: useThisImage,
+      "School website with custom design system and dynamic Contentful CMS backend with Netlify deploy webhook",
+    image: pacBayImage,
   },
   {
     appName: "Music Artist Site",
-    deployLink: "https://joshzuckermann.com/",
+    deployLink: "https://joshzuckermann.com/albums/awakening?in-my-head",
     repoLink: "https://github.com/mattzuckermann/MusicArtistSite",
     shortBio: "Gatsby, React, Typescript, GraphQL, Contentful, Material-UI",
     desc:
@@ -35,13 +35,13 @@ export default [
     image: triviaGameImage,
   },
   {
-    appName: "NYT Searcher",
-    deployLink: "https://www.nytsearcher.com/",
-    repoLink: "https://github.com/mattzuckermann/NYTsearcher",
-    shortBio: "React, Node, Express, Passport, MongoDB, Mongoose",
+    appName: "useThis",
+    deployLink: "https://usethis.dev/",
+    repoLink: "https://github.com/mattzuckermann/usethis",
+    shortBio: "NextJS, React, TypeScript, Apollo, GraphQL, MongoDB, Mongoose",
     desc:
-      "Website that parses The New York Times articles API and allows users to share their favorites with others",
-    image: bestSellerSearcherImage,
+      "JAMstack app for developers in mastering the use of the “this” keyword in various JavaScript contexts",
+    image: useThisImage,
   },
   {
     appName: "Snippets.",
@@ -52,6 +52,15 @@ export default [
     desc:
       "Snippets is a personalized user database to store code, displaying it in a colored and formatted manner.",
     image: codesnippetsImage,
+  },
+  {
+    appName: "NYT Searcher",
+    deployLink: "http://www.nytsearcher.com/",
+    repoLink: "https://github.com/mattzuckermann/NYTsearcher",
+    shortBio: "React, Node, Express, Passport, MongoDB, Mongoose",
+    desc:
+      "Website that parses The New York Times articles API and allows users to share their favorites with others",
+    image: bestSellerSearcherImage,
   },
   {
     appName: "Liri Bot",

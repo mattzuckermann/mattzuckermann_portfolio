@@ -59,23 +59,27 @@ const Project = ({ fade, index }) => {
                   </span>
                 </a>
               </span>
-              <span id="paddingDivider">|</span>
-              <span>
-                <a
-                  target="_blank"
-                  className="noDecorationButton"
-                  rel="noopener noreferrer"
-                  href={imageInfo[index].repoLink}
-                >
-                  <span className="repoUrlLinks">
-                    <img
-                      className="projectIcon"
-                      src={githubIcon}
-                      alt="github"
-                    />
+              {imageInfo[index].repoLink && (
+                <>
+                  <span id="paddingDivider">|</span>
+                  <span>
+                    <a
+                      target="_blank"
+                      className="noDecorationButton"
+                      rel="noopener noreferrer"
+                      href={imageInfo[index].repoLink}
+                    >
+                      <span className="repoUrlLinks">
+                        <img
+                          className="projectIcon"
+                          src={githubIcon}
+                          alt="github"
+                        />
+                      </span>
+                    </a>
                   </span>
-                </a>
-              </span>
+                </>
+              )}
             </div>
             <div className="shortBio">{imageInfo[index].shortBio}</div>
           </div>
